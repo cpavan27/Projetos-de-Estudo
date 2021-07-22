@@ -1,0 +1,125 @@
+#header{
+    background-color: #BBBBBB;
+}
+#divHeader{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.lista-header{
+    display: inline;
+    margin: 0 0 0 15px;   
+}
+nav{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+.label-text{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.input-text{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 5px;
+}
+form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#radio{
+    margin-bottom: 20px;
+}
+#radio label{
+    display: block;
+    width: 15%;
+    margin-bottom: 10px;
+
+}
+#select {
+    margin-bottom: 15px;
+}
+#select select{
+    margin-top: 5px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.label-checkbox, .input-checkbox{
+    margin: 20px 0;
+    font-size: 20px;
+
+}
+#input-checkbox{
+    margin-left: 5px;
+}
+
+#send{
+    display: block;
+    margin: 20px 0;
+    width: 30%;
+    padding: 15px 0;
+    background-color: orange;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+#send:hover{
+    transition: 0.5s;
+    background-color: darkorange;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+table {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+thead {
+    background-color: #696969;
+    color: aliceblue;
+    font-weight: bold;
+}
+td , th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+#rodape {
+    text-align: center;
+    background: url("/images/bg.jpg");
+    padding: 40px 0;   
+}
+#rodape p{
+    color: silver;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 10px;
+    
+}
